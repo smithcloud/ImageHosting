@@ -4,7 +4,7 @@ name: deploy-github-pages
 on:
   push:
     branches:
-    - master
+    - deploy
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
